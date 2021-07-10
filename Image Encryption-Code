@@ -1,0 +1,83 @@
+#DNA BASE DECRIPTION FUNCTION
+def DNA_DEC(x1,ch):
+    if ch==0:
+        s=""
+        if(x1=='A'):
+            s=s+'00'
+        if(x1=='C'):
+            s=s+'10'
+        if(x1=='G'):
+            s=s+'01'
+        if(x1=='T'):
+            s=s+'11'
+    if ch==1:
+        s=""
+        if(x1=='A'):
+            s=s+'00'
+        if(x1=='C'):
+            s=s+'01'
+        if(x1=='G'):
+            s=s+'10'
+        if(x1=='T'):
+            s=s+'11'
+    if ch==2:
+        s=""
+        if(x1=='A'):
+            s=s+'01'
+        if(x1=='C'):
+            s=s+'11'
+        if(x1=='G'):
+            s=s+'00'
+        if(x1=='T'):
+            s=s+'10'
+    if ch==3:
+        s=""
+        if(x1=='A'):
+            s=s+'01'
+        if(x1=='C'):
+            s=s+'00'
+        if(x1=='G'):
+            s=s+'11'
+        if(x1=='T'):
+            s=s+'10'
+    if ch==4:
+        s=""
+        if(x1=='A'):
+            s=s+'10'
+        if(x1=='C'):
+            s=s+'11'
+        if(x1=='G'):
+            s=s+'00'
+        if(x1=='T'):
+            s=s+'01'
+    if ch==5:
+        s=""
+        if(x1=='A'):
+            s=s+'10'
+        if(x1=='C'):
+            s=s+'00'
+        if(x1=='G'):
+            s=s+'11'
+        if(x1=='T'):
+            s=s+'01'
+    if ch==6:
+        s=""
+        if(x1=='A'):
+           s=s+'11'
+        if(x1=='C'):
+            s=s+'10'
+        if(x1=='G'):
+            s=s+'01'
+        if(x1=='T'):
+            s=s+'00'
+    if ch==7:
+        s=""
+        if(x1=='A'):
+           s=s+'11'
+        if(x1=='C'):
+            s=s+'01'
+        if(x1=='G'):
+            s=s+'10'
+        if(x1=='T'):
+            s=s+'00'
+    return(s)
